@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yomorning.lavafood.facebookvideodownloader.Browser">
+    <!--<item-->
+        <!--android:id="@+id/download_manager"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Download Manager"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/logout"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Logout"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/recycle_view"
+        android:orderInCategory="100"
+        android:icon="@mipmap/recycle_icon"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:icon="@mipmap/sharing"
+        android:title="Share"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/download"
+        android:orderInCategory="100"
+        android:icon="@mipmap/download_icon"
+        android:title="Download Video"
+        app:showAsAction="always"/>
+
+</menu>

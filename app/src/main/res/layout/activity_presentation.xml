@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yomorning.lavafood.facebookvideodownloader.PresentationActivity"
+    android:background="#1888D0">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Click on Browse Facebook."
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Login and browse your wall."
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Play the video you want to download."
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_weight="0.90"
+            android:layout_height="wrap_content"
+            android:text="4.Click the download icon from top to download the current video."
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:src="@mipmap/download_icon"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="GOT IT"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
+
+
+
+</LinearLayout>
